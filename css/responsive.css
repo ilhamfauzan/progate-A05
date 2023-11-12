@@ -1,0 +1,427 @@
+@media (max-width: 1000px) {
+    .menu {
+        margin-left: 10px;
+    }
+
+    .menu a {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .header-right {
+        margin-right: 1%;
+    }
+
+    .logo {
+        margin-right: 30px;
+    }
+
+    .heading {
+        width: 50%;
+        margin-left: 0;
+        max-width: 800px;
+        height: auto;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .heading p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .subs-form {
+        padding: 20px;
+    }
+
+    #email {
+        width: 50%;
+    }
+
+    #submit-btn {
+        width: 29%;
+    }
+
+    .services {
+        padding-bottom: 30px;
+    }
+
+    .services-item {
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+
+    .heading-services h1{
+        font-size: 30px;
+    }
+
+    .heading-services p{
+        font-size: 15px;
+    }
+
+    .icon {
+        width: 30%;
+    }
+
+    .items {
+        padding: 15px;
+    }
+
+    .item-desc h3{
+        font-size: 15px;
+    }
+
+    .item-desc p{
+        font-size: 12px;
+    }
+
+    /* Testimonial */
+    .testimonial-section {
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+
+    .testi-img {
+        margin: 0;
+    }
+
+    .testimonial-img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .testi-desc {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .testi-desc p {
+        width: 97%;
+    }
+    /* Pricing */
+
+    .price-content {
+        flex-direction: column;
+    }
+
+    .price-right {
+        order: 2;
+        margin-top: 40px;
+        flex-direction: row;
+    }
+
+    .price-left {
+        order: 1;
+    }
+
+    .heading-marketting {
+        flex: 50%;
+        width: 80%;
+    }
+
+    .money {
+        flex: 50%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .heading {
+        width: 100%;
+        padding: 30px 0 10px 0;
+    }
+
+    .heading h1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .heading p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main-image {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .mobile-subscribe {
+        display: block;
+    }
+
+    .subs-form {
+        padding: 17px;
+    }
+
+    #email {
+        width: 73%;
+    }
+
+    #submit-btn {
+        width: 25%;
+    }
+
+    /* -------------------------- Feature ---------------------- */
+    .feature-icon {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .services {
+        padding: 20px 0 20px 0;
+    }
+    
+    .heading h1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .heading p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .heading-services h1{
+        font-size: 20px;
+    }
+
+    .heading-services p {
+        margin: 10px auto;
+    }
+
+    .services-item {
+        flex-direction: column;
+        margin: 40px 0;
+        align-items: center;
+    }
+
+    .items {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        padding: 15px 30px;
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .icon {
+        width: 25%;
+    }
+
+    .item-desc {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .item-desc h3 {
+        font-size: 20px;
+    }
+
+    .item-desc p {
+        font-size: 15px;
+    }
+
+    .ios {
+        margin-bottom: 0;
+    }
+
+    /* testimonial */
+    .testi-desc h2{
+        font-size: 30px;
+    }
+
+    /* Pricing */
+    .price-right {
+        order: 1;
+        margin-top: 40px;
+    }
+
+    .price-left {
+        order: 2;
+    }
+
+    .price {
+        flex-direction: column;
+    }
+
+    .price-individual {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .money {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    /* -------------------------- Feature ---------------------- */
+    .feature-icon {
+        width: 100%;
+    }
+
+    .price-right {
+        flex-direction: column;
+        margin: 20px 40px 5px 40px;
+    }
+
+    .heading-price h2{
+        font-size: 28px;
+    }
+
+    .heading-marketting {
+        width: 100%;
+    }
+
+    .money {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer__addr {
+        order: 3;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer__nav {
+        order: 1;
+        flex-direction: column;
+    }
+
+    .nav__item {
+        width: 100%;
+    }
+
+    .nav__ul {
+        margin-bottom: 10px;
+    }
+
+    .social-media {
+        flex-direction: none;
+        margin-bottom: 30px;
+    }
+
+    .social-media li {
+        margin: 5px 0;
+        flex: auto;
+    }
+
+    .social-media li a{
+        display: inline;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .container {
+        padding: 30px 10px;
+    }
+
+    header .container {
+        padding: 10px 10px;
+    }
+
+    main > .container {
+        padding: 10px 20px 40px 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .heading {
+        padding-top: 0px;
+    }
+
+    #email {
+        width: 72%;
+    }
+
+    /* services */
+    .services .container .title-section p {
+        margin: 0;
+    }
+
+    /* Testimonial */
+    .testi-desc {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .testi-desc h2 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .testimonial-img {
+        width: 100%;
+    }
+    /* pricing */
+    .price-left {
+        padding: 40px 20px 0 20px;
+    }
+
+    .price-right {
+        margin: 0px 20px 0 20px;
+    }
+
+    #submit-btn {
+        width: 25%;
+        padding: 17px 12px;
+    }
+}
+
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
